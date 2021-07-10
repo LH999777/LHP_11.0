@@ -75,7 +75,6 @@ function draw() {
 if (frameCount % 80 === 0) {
   apple = createSprite(190,100,40,10);
   apple.y = Math.round(random(10,60));
-  apple.addImage(cloudImage);
   apple.scale = 0.5;
   apple.velocityX = -2;
 
